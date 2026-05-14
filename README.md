@@ -1,4 +1,10 @@
 # azure-retail-pipeline
+
+> Note: Azure infrastructure (ADF, Data Lake) was used during development.
+> Local Parquet files are included for running the pipeline without cloud credentials.
+>
+
+
 <img width="1534" height="411" alt="architecture" src="https://github.com/user-attachments/assets/b093df11-7399-4024-900c-06b0fbe7aa86" />
 
 
@@ -11,6 +17,9 @@ Place the CSV file in the /raw_data folder before running the pipeline.
 > Note: Gold layer uses DuckDB locally for cost efficiency. 
 > In production this would be replaced with Azure Synapse Analytics.
 
+
+> <img width="950" height="384" alt="Screenshot 2026-05-14 at 8 42 57 PM" src="https://github.com/user-attachments/assets/3a92789e-9c2b-4be0-8a96-846283ec1724" />
+<img width="793" height="495" alt="Screenshot 2026-05-14 at 8 39 05 PM" src="https://github.com/user-attachments/assets/0308fc38-b59c-4098-94f8-809ef89d3aae" />
 <img width="308" height="386" alt="Screenshot 2026-05-14 at 4 47 38 PM" src="https://github.com/user-attachments/assets/b6423614-0463-48ec-9eb2-38e89e06c45f" />
 <img width="1437" height="488" alt="Screenshot 2026-05-14 at 4 45 56 PM" src="https://github.com/user-attachments/assets/3773d4b9-fa3c-4948-89b7-f53a7cb16440" />
 <img width="1409" height="437" alt="Screenshot 2026-05-14 at 4 44 11 PM" src="https://github.com/user-attachments/assets/dfd4a4d7-3d35-49ea-bd69-236ae9df335d" />
