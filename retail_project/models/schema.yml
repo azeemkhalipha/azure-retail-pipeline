@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_retail
+    columns:
+      - name: invoice_no
+        tests:
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+      - name: quantity
+        tests:
+          - not_null
