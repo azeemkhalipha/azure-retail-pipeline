@@ -1,4 +1,6 @@
 # azure-retail-pipeline
+<img width="1534" height="411" alt="architecture" src="https://github.com/user-attachments/assets/b093df11-7399-4024-900c-06b0fbe7aa86" />
+
 
 ## Dataset
 Download the Online Retail II dataset from Kaggle:
